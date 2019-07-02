@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
 
 	s.default_subspec = 'Core'
 	s.platform = :ios, '8.0'
+	s.static_framework = true
 
 	s.subspec 'Core' do |s|
 		s.ios.deployment_target = '8.0'
